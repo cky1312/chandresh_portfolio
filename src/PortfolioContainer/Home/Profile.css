@@ -1,0 +1,158 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* height: 10%; */
+  min-height: fit-content;
+  /* background-image: url(../../../public/Wave/wave.svg); */
+  /* background-image: radial-gradient(#4d8fac, #4d8fac); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* .profile-container-footer {
+  height: 100vh;
+  background-image: url(../../../public/Wave/wave.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  z-index: 0;
+} */
+.profile-parent {
+  display: flex;
+  align-items: center;
+  /* color: white; */
+}
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+.profile-details-role h1 {
+  font-size: 40px;
+  font-family: cursive;
+}
+.primary-text {
+  color: #fff;
+}
+.highlighted-text {
+  color: orange;
+}
+.profile-role-tagline {
+  font-size: 19px;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+.profile-options .higlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: azure;
+  color: #111;
+}
+.profile-options .btn {
+  width: 120px;
+  padding: 8px 0;
+  border-radius: 25px;
+  border: 1px solid white;
+  background-color: whitesmoke;
+  /* z-index: 700; */
+}
+
+.profile-options a {
+  text-decoration: none;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+  box-shadow: 0 1px 0px 0px whitesmoke;
+}
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-image: url(../../../public/images/WhatsApp\ Image\ 2022-02-01\ at\ 5.11.10\ PM.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+.profile-picture-background:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+.colz .colz-icon {
+  color: white;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz .colz-icon a:hover {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0px 0 80px;
+  }
+  .profile-details-name {
+    font-size: 20px;
+  }
+  .profile-details-role .primary-text {
+    font-size: 12px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    width: 320px;
+    height: 320px;
+    margin: 0 0px 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .profile-picture {
+    margin: 0 !important;
+  }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-details {
+    margin: 25px 0 0;
+  }
+  .profile-options .highlighted-btn {
+    margin: 0 !important;
+  }
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .profile-picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+  .profile-details {
+    width: 90%;
+  }
+}

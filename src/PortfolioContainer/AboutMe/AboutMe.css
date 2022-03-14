@@ -1,0 +1,19 @@
+.bg-white:hover {
+  transform: scale(1.02);
+  transition: 1s ease-out;
+}
+.library {
+  /* background-image: url(../../../public/images/library.jpg); */
+  background-size: cover;
+}
+
+@media screen and(max-width:710px) {
+  div.d-flex.justify-content-between {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  div.border.rounded.text-start.p-2 {
+    width: 100% !important;
+    background-color: red;
+  }
+}
